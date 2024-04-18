@@ -2111,7 +2111,7 @@ section {
 .footer .footer-content h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #29486a;
+  color: var(--color-primary);
   position: relative;
   padding-bottom: 12px;
 }
@@ -2128,7 +2128,7 @@ section {
 
 .footer .footer-content .footer-links ul i {
   margin-right: 2px;
-  color: var(--color-primary);
+  color:#000000;
   font-size: 16px;
   line-height: 0;
 }
@@ -2144,14 +2144,14 @@ section {
 }
 
 .footer .footer-content .footer-links ul a {
-  color: #31547c;
+  color: var(--color-primary);
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 .footer .footer-content .footer-links ul a:hover {
-  color: var(--color-primary);
+  color: #000000;
 }
 
 .footer .footer-content .footer-contact p {
