@@ -196,4 +196,7 @@ document.addEventListener('DOMContentLoaded', () => {
     aos_init();
   });
 
-});
+});function redirectToDonationPage() {
+ 
+  window.location.href = 'donation_page_url_goes_here';
+}
